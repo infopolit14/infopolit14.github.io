@@ -23,29 +23,52 @@
     url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.6.3#fontawesomeregular') format('svg');
 }
 
+@media screen and (max-width: 1280px) {  }
+@media screen and (max-width: 1140px) { div.wrap {width: 1024px;} }
+@media screen and (max-width: 992px) { div.wrap {width: 970px;} }
 
-
+@media screen and (max-width: 1280px) {       /*было 1440px*/
+    div.wrap {width: 1200px;}
+    .address { display: none }
+    div.up { display: none }
+    .ups{display: none}
+    div.btnredstrip{    margin-right: 50%;}
+    div.twostrings{margin-top: 0px; margin-left: 25% }
+    div.redstrip {     margin-top: 320px;}
+    div.box5{    width: 692px;}
+    div.boxes{width: 700px;
+        padding-left: 20%;
+        padding-right: 20%;
+        margin-top: 0px}
+}
 
 
 @media screen and (max-width: 1200px) {
     .address { display: none }
 div.up { display: none }
 .ups{display: none}
-    div.btnredstrip{    margin-right: 40%;}
+    div.btnredstrip{    margin-right: 50%;}
     div.twostrings{margin-top: 0px; margin-left: 25% }
+    .slideleft a{display: none}
+    .slideright a{display: none}
+    div.redstrip {     margin-top: 286px;}
+
 }
+
+
 @media screen and (max-width: 1070px) {
 .superpower{text-align: center;}
     .logoandsuccess{    padding: 0px 20%;}
     .success { display: none }
+    .search img{display: none;}
+
 
 }
 
 @media screen and (max-width: 1010px) {
-    .search img{display: none;}
-    div.redstrip {     margin-top: 286px;}
-    .slideleft a{display: none}
-    .slideright{display: none}
+
+
+
     .success { display: none }
     div.boxes{margin-top: 0px}
     div.manbcg{padding: 0px}
@@ -55,7 +78,12 @@ div.up { display: none }
 a.burger{display: inline-block; }
 a.burger:hover{border-bottom: none;}
 ul.navbar{display: none}
+.logoandsuccess {padding-left: 0;}
+.manbcg{padding: 0px}
+section{position: absolute;}
+div.threespans {position: relative;}
 }
+
 
 
 
@@ -68,8 +96,9 @@ ul.navbar{display: none}
 
 
 body {
+    /*margin-right: -309px;*/
     margin: 0 auto;
-    width: 100%;
+    min-width: 1400px;
 
 }
 .wrap{
@@ -78,8 +107,7 @@ body {
     display: inline-block;
 }
 header {
-    width: 100%;
-    max-width: 1400px;
+
 }
 .btn{
     background: black;
@@ -236,16 +264,16 @@ div.succ1 a{
     margin-left: 89px;
 }
 section{
-    position: relative;
+
     background: black;
     background-repeat: no-repeat;
     background-position: right;
     height: 750px;
-    width: 100%;
-    max-width: 1400px;
+    max-width:1400px;
+    width:100%;
     background-image: url(../img/man.png);
     margin-top: 2px;
-    background-size: cover;
+    /*background-size: cover;*/
 }
 nav{
     height: 70px;
@@ -389,10 +417,26 @@ a.get{
 /* end section */
 
 /* begin boxes */
-
+h1{
+    color: #c1242d;
+}
 .boxes{
     margin-top: 19px;
     background: url("../img/boxesbackground.png");
+}
+.boxes span{
+    line-height: 2.3;
+    font-weight: 400;
+    color: white;
+    margin-left: 103px;
+    font-size: 10.3pt;
+}
+.boxes h1{
+    font-family: hind;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 155px;
+    font-weight: 400;
 }
 .box1 {
     float: left;
@@ -455,20 +499,30 @@ a.get{
 
 
 .safegreenready{
-    background-image: url(../img/safegreenreadybackground.png);
+    /*background-image: url(../img/safegreenreadybackground.png);*/
     background-repeat: no-repeat;
     background-color: white;
     width: 100%;
     height: 360px;
     text-align: center;
     display: inline-block;
-    padding: 50px 0px 50px 0px;
+    padding: 42px 0px 54px 0px;
 }
 .safe{
     float: left;
     width: 466px;
-    margin-top: 219px;
-    margin-left: 30px
+    /* margin-top: 219px; */
+    margin-left: 30px;
+}
+div.safe img{
+    display: block;
+    margin-bottom: 30px;
+    margin-left: 193px;
+}
+#redsafe{
+    color: red;
+    font-size: 27pt;
+    font-weight: 900;
 }
 div.safe span{
     font-size: 13.8pt;
@@ -476,16 +530,38 @@ div.safe span{
 .green{
     float: left;
     width: 466px;
-    margin-top: 222px;
+    /*margin-top: 222px;*/
     margin-left: -6px;
+}
+div.green img {
+    display: block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: 166px;
+}
+#redgreen {
+    color: red;
+    font-size: 27pt;
+    font-weight: 900;
 }
 div.green span{
     font-size: 13.8pt;
 }
 .ready{
     float: left;
-    margin-top: 222px;
+    /*margin-top: 222px;*/
     margin-left: 3px;
+}
+div.ready img {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 26px;
+    margin-left: 119px;
+}
+#redready {
+    color: red;
+    font-size: 27pt;
+    font-weight: 900;
 }
 div.ready span{
     font-size: 13.8pt;
