@@ -6,6 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <title>Korobov</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <!--<link href="https://fonts.googleapis.com/css?family=Hind:400,500,600" rel="stylesheet">-->
@@ -13,26 +14,30 @@
 </head>
 <body>
     <header>
-        <div class="block1 contacts-information clearfix">
-            <div class="address-block">
-                <div class="city">
-                    <span>Philadelphia<i class="fa fa-angle-down" aria-hidden="true"></i></span>
-                </div>
-                <div class="phone">
-                    <span><i class="fa fa-phone" aria-hidden="true"></i> Toll-free: 800-455-0054</span>
-                </div>
-                <div class="address">
-                    <span><i class="fa fa-location-arrow" aria-hidden="true"></i>200 Industrial Highway &nbsp Ridley Park, PA 19078</span>
-                </div>
+        <div class="contacts clearfix">
+            <div class="options">
+                <a class="button1 used" href="#">
+                    Philadelphia
+                    <i class="fa fa-angle-down fa-lg" aria-hidden="true"></i>
+                </a>
             </div>
-            <div class="social-icons">
-                <ul>
-                    <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                </ul>
+            <div class="info">
+				<span class="line1">
+					<i class="fa fa-phone fa-lg" aria-hidden="true"></i>
+					<span class="semibold">Toll-free:</span>
+					<span class="reg">800-455-0054</span>
+				</span><br class="br_hidden1">
+                <span class="line2">
+					<i class="fa fa-location-arrow fa-lg" aria-hidden="true"></i>
+					<span class="reg2">200&nbsp;Industrial&nbsp;Highway &nbsp;&nbsp;<br class="br_hidden2">Ridley Park,&nbsp;PA 19078</span>
+				</span>
+            </div>
+            <div class="social">
+                <a class="letter" href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                <a class="youtube" href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                <a class="google" href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
             </div>
         </div>
         <div class="block2 logo-section clearfix">
@@ -99,81 +104,113 @@
         </div>
 
     </div>
-    <div class="redstrip">
-        <div class="underredstrip">
-            <div class="twostrings">
-                <p>
-                    <span class="request">Request a Free Site Survey or Quote.</span></br>
-                    <span class="ups">UPS Battery and Uninterruptible Power Supply Sales and Installation.</span>
+    <div class="quote-button-block clearfix">
+        <div class="quote-text">
+            <p><span>Request a Free Site Survey or Quote.<br></span>
+                UPS Battery and Uninterruptible Power Supply Sales and Installation.</p>
+        </div>
+        <div class="button-quote">
+            <button type="button" class="btn"><a href="#">Get a Qoute</a></button>
+        </div>
+    </div>
+    <div class="psb">
+        <div class="products clearfix">
+            <div class="products_img1_block">
+                <img class="products_img1 full" src="img/box1.png" alt="products">
+                <div class="products_text">
+                    <div class="psb_title">
+                        Products<br>
+                    </div>
+                    <div class="psb_about">
+                        Sure Power is a leading distributor of quality power products and solutions, including<br>
+                        batteries, UPS systems, telecom power systems, emergency lighting and DC power<br>
+                        systems.
+                    </div>
+                </div>
+            </div>
+            <div class="products_img2_block">
+                <img class="products_img2 full" src="img/box21.png" alt="products">
+            </div>
+            <div class="products_img3_block">
+                <img class="products_img3" src="img/box22.png" alt="products">
+            </div>
+        </div>
+        <div class="services clearfix">
+            <div class="services_img1_block">
+                <img class="services_img1 full" src="img/box31.png" alt="services">
+            </div>
+            <div class="services_img2_block">
+                <img class="services_img2" src="img/box32.png" alt="services">
+            </div>
+            <div class="services_img3_block">
+                <img class="services_img3 full" src="img/box4.png" alt="services">
+                <div class="services_text">
+                    <div class="psb_title">
+                        Services<br>
+                    </div>
+                    <div class="psb_about">
+                        We offer certified and insured installation by trained technicians, emergency repair,<br>
+                        rental UPS, maintenance services, battery testing, sizing and more.
+                    </div>
+                </div>
+            </div>
+            <div class="services_img11_block">
+                <img class="services_img1 full" src="img/box31.png" alt="services">
+            </div>
+            <div class="services_img22_block">
+                <img class="services_img2" src="img/box32.png" alt="services">
+            </div>
+        </div>
+        <div class="battery_disp clearfix">
+            <div class="battery_disp_img1_block">
+                <img class="battery_disp_img1 full" src="img/box5.png" alt="services">
+                <div class="battery_disp_text">
+                    <div class="psb_title batt_title">
+                        Battery Disposal<br>
+                    </div>
+                    <div class="psb_about batt_about">
+                        From de-installations to removal logistics, we can handle your battery disposal needs.<br>
+                        Our disposal services follow all applicable state and federal recycling certifications.
+                    </div>
+                </div>
+            </div>
+            <div class="battery_color clearfix">
+                <div class="battery_disp_img2_block">
+                    <img class="battery_disp_img2" src="img/box61.png" alt="services">
+                </div>
+                <div class="battery_disp_img3_block">
+                    <img class="battery_disp_img3 full" src="img/box62.png" alt="services">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sgr clearfix">
+        <ul>
+            <li class="safe">
+                <img src="img/safe.png" alt="safe">
+                <h1>SAFE</h1>
+                <p>CPR and forklift certified personnel<br>
+                    Spill kits and safety kits on all sites and vehicles<br>
+                    Certified and calibrated tools
                 </p>
-            </div>
-            <div class="btnredstrip">
-                <a class="get" href="url">Get a Quote</a>
-            </div>
-        </div>
-    </div>
-    <div class="boxes">
-        <div class="boxes12">
-            <div class="box1">
-                 <img class="box1img" src="img/stelaji.png"/>
-            </div>
-            <div class="box2">
-                <div class="box21">
-                    <img class="box21img" src="img/pogruz.png"/>
-                </div>
-                <div class="box22">
-                    <img class="box22img" src="img/icone acum.png" height="107" width="140"/>
-                </div>
-            </div>
-        </div>
-        <div class="boxes34">
-            <div class="box3">
-                <div class="box31">
-                    <img src="img/control.png"/>
-                </div>
-                <div class="box32">
-                    <img src="img/layer-52.png" height="153" width="153"/>
-                </div>
-            </div>
-            <div class="box4">
-                <img src="img/layer-45.png"/>
-            </div>
-        </div>
-        <div class="boxes56">
-            <div class="box5">
-                <img class="box5img" src="img/konsrukcia.png"/>
-            </div>
-            <div class="box6">
-                <div class="box61">
-                    <img class="box61img" src="img/musor.png"/>
-                </div>
-                <div class="box62">
-                    <img class="box62img" src="img/ups.png"/>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="safegreenready">
-        <div class="sgr">
-            <div class="safe"><img src="img/safe.png" height="142" width="103"/>
-            <span id="redsafe">SAFE</span><br>
-            <span>CPR and forklift certified personnel</span><br/>
-            <span>Spill kits and safety kits on all sites and vehicles</span><br/>
-            <span>Certified and calibrated tools</span>
-        </div>
-            <div class="green"><img src="img/green.png" />
-            <span id="redgreen">GREEN</span><br>
-            <span>Smelter facility for battery disposal</span><br/>
-            <span>$5,000,000.00 pollution legal liability for the </span><br/>
-            <span>transportation and handling of lead acid batteries.</span>
-        </div>
-            <div class="ready"><img src="img/ready.png"/>
-            <span id="redready">READY</span><br>
-            <span>Toll free 24/7 emergency service line with </span><br/>
-            <span>immediate dispatching. Most products available</span><br/>
-            <span>to ship within 24 hours.</span>
-        </div>
-        </div>
+            </li>
+            <li class="green">
+                <div><img src="img/green.png" alt="green"></div>
+                <h1>GREEN</h1>
+                <p>Smelter facility for battery disposal<br>
+                    $5,000,000.00 pollution legal liability for the <br>
+                    transportation and handling of lead acid batteries.
+                </p>
+            </li>
+            <li class="ready">
+                <img src="img/ready.png" alt="ready">
+                <h1>READY</h1>
+                <p>Toll free 24/7 emergency service line with<br>
+                    immediate dispatching. Most products available<br>
+                    to ship within 24 hours.
+                </p>
+            </li>
+        </ul>
     </div>
     <div class="fura">
         <div class="furalogo">
@@ -229,72 +266,79 @@
     </div>
     <div class="baners">
         <div class="banersinto">
-            <img src="img/EnerSys.png" height="63" width="126"/>
-            <img src="img/Deka.png" height="63" width="140"/>
-            <img src="img/Dynasty.png" height="63" width="143"/>
-            <img src="img/C D.png" height="63" width="190"/>
-            <img src="img/Power.png" height="63" width="137"/>
+            <div><img src="img/EnerSys.png" height="63" width="126"/></div>
+            <div><img src="img/Deka.png" height="63" width="140"/></div>
+            <div><img src="img/Dynasty.png" height="63" width="143"/></div>
+            <div><img src="img/C D.png" height="63" width="190"/></div>
+            <div><img src="img/Power.png" height="63" width="137"/></div>
         </div>
     </div>
     <footer>
-        <div class="footerup">
-        <div class="footerupmargintop">
-            <div class="footerupmarginleft">
-                <div class="footerup1">
-                    <h3>ABOUT US</h3>
-                    <div>
-                        <p class="footerup1firstp">Supplier of superior quality stationary backup battery power products, UPS rentals and services that maximize critical power integrity and customer satisfaction.</p>
-                        <p class="footerup1secondp">Sure Power, Inc. is a leading distributor for the following battery power products: C&D Technologies, EnerSys and East Penn Manufacturing. Call today to find how we can help you and your organization with battery backup, UPS rentals and critical power system services.</p>
-                    </div>
-                </div>
-                <div class="footerup2">
-                    <h3>RECENT POSTS</h3>
-                    <div>
-                        <ul>
-                            <li><a href="#">UPS 101</a></li>
-                            <li><a href="#">How Do You Rate? Understanding Battery</a></li>
-                            <li><a href="#">Ratings Beyond AA</a></li>
-                            <li><a href="#">Six Critical Needs for any Critical Power Maintenance Provider</a></li>
-                            <li><a href="#">Are You at Risk for These Leading Causes of UPS Power Failure?</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="footerup3">
-                    <h3>RECENT TWEETS</h3>
-                    <div>
-                        <p class="footerup1firstp">Sure Power is 600 Days Injury Free -<br/> <a href="#">https://t.co/3fjAz1RKUo</a><br/>&nbsp &nbsp8 days ago</p>
-                        <p class="footerup1secondp">&nbsp Delta’s system meltdown causes canceled <br/>flights, puts focus on aging technology <a href="#">https://t.co/HZIM3gdEY7</a> via @WSJ The Wall Street Journal <br/>&nbsp &nbsp162 days ago</p>
-                    </div>
-                </div>
-                <div class="footerup4">
-                    <h3>CONTACT INFORMATION</h3>
-                    <div>
-                        <p>Toll-free: 800-455-0054</p>
-                        <h3 class="phil">Philadelphia Area:</h3>
-                        <p>200 Industrial Highway
-                        <br>
-                        Ridley Park, PA 19078
-                        <br>
-                        Phone: 610-583-9640
-                        <br>
-                        Fax: 610-583-9650</p>
-                        <h3 class="phil">Baltimore Area:</h3>
-                        <p>3620 Commerce Dr., Suite 710
-                        <br>
-                        Halethorpe, MD 21227
-                        <br>
-                        Phone: 410-242-5200
-                        <br>
-                        Fax: 410-242-9016</p>
-                    </div>
-                </div>
-            </div>
+        <div class="last_info">
+            <ul>
+                <li class="about_us">
+                    <h3>About Us</h3>
+                    <p>Supplier of superior quality stationary<br>
+                        backup battery power products, UPS<br>
+                        rentals and services that maximize critical<br>
+                        power integrity and customer satisfaction.</p>
+                    <p>Sure Power, Inc. is a leading distributor for<br>
+                        the following battery power products: C&D<br>
+                        Technologies, EnerSys and East Penn<br>
+                        Manufacturing. Call today to find how we<br>
+                        can help you and your organization with<br>
+                        battery backup, UPS rentals and critical<br>
+                        power system services.</p>
+                </li>
+                <li class="posts">
+                    <h3>Recent Posts</h3>
+                    <p><a href="url">UPS 101</a></p>
+                    <p><a href="url">How Do You Rate? Understanding Battery</a></p>
+                    <p><a href="url">Ratings Beyond AA</a></p>
+                    <p><a href="url">Six Critical Needs for any Critical Power<br>
+                        Maintenance Provider</a></p>
+                    <p><a href="url">Are You at Risk for These Leading Causes<br>
+                        of UPS Power Failure?</a></p>
+                </li>
+                <li class="tweets">
+                    <h3>Recent Tweets</h3>
+                    <p>Sure Power is 600 Days Injury Free -<br>
+                        <a href="https://t.co/3fjAz1RKUo">https://t.co/3fjAz1RKUo</a><br>
+                        <span>&nbsp;&nbsp; 8 days ago</span>
+                    </p>
+                    <p>Delta’s system meltdown causes canceled<br>
+                        flights, puts focus on aging technology<br>
+                        <a href="https://t.co/HZIM3gdEY7">https://t.co/HZIM3gdEY7</a> via @WSJ The<br>
+                        Wall Street Journal<br>
+                        <span>&nbsp;&nbsp; 162 days ago</span>
+                    </p>
+                </li>
+                <li class="cont_info">
+                    <h3>Contact Information</h3>
+                    <p>Toll-free: 800-455-0054</p>
+                    <p>
+                        <span>Philadelphia Area:<br></span>
+                        200 Industrial Highway<br>
+                        Ridley Park, PA 19078<br>
+                        Phone: 610-583-9640<br>
+                        Fax: 610-583-9650
+                    </p>
+                    <p>
+                        <span>Baltimore Area:<br></span>
+                        3620 Commerce Dr., Suite 710<br>
+                        Halethorpe, MD 21227<br>
+                        Phone: 410-242-5200<br>
+                        Fax: 410-242-9016
+                    </p>
+                </li>
+            </ul>
         </div>
-    </div>
-        <div class="footerdown">
-            <div class="footerdowntwop">
-                <p class="first">Copyright © 2011 Sure Power Inc. All Rights Reserved. Employee Intranet</p>
-                <p class="second">Powered by WordPress. Developed by Celerify</p>
+        <div class="the_end clearfix">
+            <div>
+                <p class="cr">Copyright © 2011 Sure Power Inc. All Rights Reserved. Employee Intranet</p>
+            </div>
+            <div>
+                <p class="wp">Powered by WordPress. Developed by Celerify</p>
             </div>
         </div>
     </footer>

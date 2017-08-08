@@ -1,424 +1,1109 @@
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-
-/**
- * 1. Set default font family to sans-serif.
- * 2. Prevent iOS and IE text size adjust after device orientation change,
- *    without disabling user zoom.
- */
-
-html {
-  font-family: sans-serif; /* 1 */
-  -ms-text-size-adjust: 100%; /* 2 */
-  -webkit-text-size-adjust: 100%; /* 2 */
+/*   RESPONSIVE   */
+@media screen and (max-width: 1320px){
+  .furalogo{
+    float: none;
+    padding: 10px 0 10px 0;
+  }
+  .furatext{
+    margin-right: 0px;
+    line-height: 50px;
+  }
 }
 
-/**
- * Remove default margin.
- */
+@media screen and (max-width: 1160px){
+  .logo,
+  .static-info{
+    float: none;
+  }
+  .logo-section{
+    text-align: center;
+  }
+  .slideleft {padding-left: 0px;}
+  .datatext span{font-size: 10pt}
+  .safe, .green, .ready{width: auto;}
+  div.green span{margin-left: 0px}
+  div.green img{margin-left: 0px}
+  .sgr{margin-left: 25%;}
+  .button-quote {
+    text-align: center;
+    float: none;
+    padding-right: 0;
+  }
+  .quote-text {
+    text-align: center;
+    float: none;
+    padding-left: 0;
+    padding-bottom: 0px;
+  }
+  .banersinto {
+    display: inline-block;
+  }
+  .banersinto div{
+    display: block;
+  }
+  .banersinto img {
+    padding: 0px 9px 0px 9px;
+  }
 
-body {
-  margin: 0;
+}
+@media screen and (max-width: 995px){
+  .block{
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  nav li a{
+    font-size: 14px;
+    padding: 16px 8px 10px;
+  }
+  .search{
+    margin-right: -16px;
+  }
+  .secondcircle {
+    padding-left: 0px;
+  }
+  .button-quote {
+    float: none;
+    line-height: 100px;
+    text-align: center;
+  }
+
+  .quote-text {
+    float: none;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 780px){
+  .navigation{
+    position: relative;
+  }
+  .button-quote {
+    text-align: center;
+    float: none;
+    line-height: 90px;
+  }
+  div.phone,
+  div.address{
+    display: block;
+    margin: 10px 0;
+  }
+  nav ul{
+    display: none;
+    position: absolute;
+    background: #000;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    padding: 0 50px;
+    box-sizing: border-box;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  #menu li{
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  #menu li a,
+  #menu li a:hover{
+    border-bottom: none;
+  }
+  #menu li a{
+    padding: 0;
+  }
+  #menu li:last-of-type{
+    border-bottom: none;
+  }
+  .twostrings{margin-left: 40px}
+  .footerup1, .footerup2, .footerup3, .footerup4{
+    padding-left: 15px;
+    padding-right: 20px;
+  }
+  .footerup1secondp{display: none;}
+  .furalogo{padding-left: 2%;}
+  .appdata{width: 100%}
+  .datatext span {
+    font-size: 20px;
+  }
+  .furalogo img{height: 100%;
+    width: 100%;}
+  .appdata{
+    width: 100%;
+  }
+  .dataimg{
+    padding: 1% 25% 1% 25%;
+  }
+
 }
 
-/* HTML5 display definitions
-   ========================================================================== */
+@media screen and (max-width: 660px){
+  .quote-text p {
+    font-size: 20px;
+  }
 
-/**
- * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
- * Correct `block` display not defined for `main` in IE 11.
- */
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-main,
-menu,
-nav,
-section,
-summary {
-  display: block;
+  .quote-text span {
+    font-size: 25px;
+  }
 }
 
-/**
- * 1. Correct `inline-block` display not defined in IE 8/9.
- * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
- */
 
-audio,
-canvas,
-progress,
-video {
-  display: inline-block; /* 1 */
-  vertical-align: baseline; /* 2 */
+@media screen and (max-width: 570px){
+  .static-info ul li{
+    display: block;
+    padding-right: 0;
+    margin: 10px 0;
+    border: none;
+    width: 160px;
+    text-align: left;
+  }
+  .slideleft img, .slideright img{width: 50%;}
+  .footerupmarginleft{display: inline-grid;}
+  .furatext{font-size: 30px}
+  /*.we{margin-left: 10px}*/
+  .we{
+    margin-right: 53px;
+    font-size: 28px
+  }
+  .battery{
+    margin-right: 53px;
+    font-size: 18px
+  }
+  .vrla{
+    margin-right: 53px;
+    font-size: 10px
+  }
+  .threespans {
+    display: block;
+  }}
+@media screen and (max-width: 440px){
+  .contacts-information > div {
+    float: none;
+  }
+  .social-icons ul li {
+    margin: 0 20px 0 0;
+  }
+  .logo img{
+    width: 100%;
+    height: auto;
+  }
+
+}
+@media screen and (max-width: 390px) {
+  .block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  nav ul{
+    padding: 0 20px;
+  }
+
 }
 
-/**
- * Prevent modern browsers from displaying `audio` without controls.
- * Remove excess height in iOS 5 devices.
- */
+@media screen and (max-width: 296px) {
+  .banner-text {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1370px) {
 
-audio:not([controls]) {
-  display: none;
-  height: 0;
+
+  .ups_text {
+    display: none;
+
+  }
+
+  .ups_logo {
+    margin-left: 140px;
+  }
+
+  .ups_than {
+    color: white;
+    font-size: 25pt;
+    display: inline-block;
+    margin-left: 34px;
+    margin-top: 67px;
+  }
+
+  .sgr p {
+    font-size: 13pt;
+  }
+
+  .sgr h1 {
+    font-size: 26pt;
+  }
 }
 
-/**
- * Address `[hidden]` styling not present in IE 8/9/10.
- * Hide the `template` element in IE 8/9/10/11, Safari, and Firefox < 22.
- */
+@media  screen and (max-width: 1280px) {
+  .button1 {
+    font-size: 9pt;
+    margin-top: 13px;
+    margin-left: 60px;
+  }
 
-[hidden],
-template {
-  display: none;
+  .info {
+    margin-top: 18px;
+    font-size: 10pt;
+  }
+
+  .social {
+    margin-top: 18px;
+    margin-right: 50px;
+    font-size: 10pt;
+  }
+
+  .company_list {
+    margin-right: 80px;
+    margin-top: 53px;
+    font-size: 11pt;
+  }
+
+  .man img {
+    width: 70%;
+  }
+
+  .menu_list {
+    font-size: 11pt;
+    margin-left: 75px;
+  }
+
+  .menu .search {
+    font-size: 11pt;
+    margin-right: 85px;
+  }
+
+  .red {
+    font-size: 18pt;
+  }
+
+  .battery {
+    font-size: 24pt;
+  }
+
+  .vrla {
+    font-size: 13pt;
+  }
+
+  .onman {
+    top: 200px;
+  }
+
+  .btn_quote a {
+    font-size: 12px;
+  }
+
+  .request {
+    font-size: 18pt;
+  }
+
+  .ups {
+    font-size: 19px;
+  }
+
+  .quote {
+    padding-bottom: 20px;
+  }
+
+  .text_quote {
+    margin-top: 24px;
+    margin-left: 100px;
+  }
+
+  .btn_quote {
+    margin-top: 35px;
+    margin-right: 95px;
+  }
+
+
+  .products_img3,
+  .services_img2 {
+    margin-top: 130px;
+    width: 37%;
+  }
+
+  .battery_disp_img2 {
+    margin-top: 128px;
+    width: 33%;
+  }
+
+  .sgr img {
+    width: 31%;
+  }
+
+  .safe img {
+    width: 23%;
+  }
+
+  .sgr p {
+    font-size: 11pt;
+    line-height: 26px;
+  }
+
+  .sgr h1 {
+    font-size: 21pt;
+  }
+
+  .sgr {
+    margin-left: 28px;
+    margin-top: 35px;
+    padding-bottom: 50px;
+  }
+
+  .big_car {
+    width: 30%;
+  }
+
+  .ups_logo {
+    margin-top: 40px;
+    width: 18%;
+  }
+
+  .ups_than {
+    font-size: 22pt;
+    margin-top: 44px;
+  }
+
+  .pics p {
+    font-size: 11pt;
+  }
+
+  .friends li {
+    width: 17%;
+  }
+
+  .last_info h3 {
+    font-size: 15px;
+  }
+
+  .last_info p,
+  .the_end {
+    font-size: 10px;
+  }
+
+  .last_info ul {
+    margin-left: 35px;
+  }
+
+  .wp {
+    margin-right: 80px;
+    margin-top: 20px;
+  }
+
+  .cr {
+    margin-left: 70px;
+    margin-top: 20px;
+  }
+
+  .the_end {
+    padding-bottom: 15px;
+  }
+
+  .psb_about {
+    font-size: 10pt;
+  }
+
+  .psb_title {
+    font-size: 22pt;
+  }
+
+  .products_text,
+  .battery_disp_text,
+  .services_text {
+    left: 32px;
+    top: 70px;
+  }
+
+  .fa-angle-left {
+    margin-left: 20px;
+  }
 }
 
-/* Links
-   ========================================================================== */
+@media  screen and (max-width: 1024px)  {
+  .last_info li,
+  .last_info ul {
+    margin-right: 10px;
+  }
 
-/**
- * Remove the gray background color from active links in IE 10.
- */
+  .last_info li {
+    padding-right: 21px;
+  }
 
-a {
-  background-color: transparent;
+  .big_car {
+    width: 25%;
+  }
+
+  .ups_logo {
+    margin-top: 20px;
+  }
+
+  .ups_than {
+    font-size: 21pt;
+    margin-top: 22px;
+  }
+  .menu_list {
+    margin-left: 45px;
+    font-size: 14px;
+  }
+
+  .sgr p {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  .sgr h1 {
+    font-size: 24px;
+  }
+}
+@media  screen and (max-width: 980px) {
+  .company {
+    padding-bottom: 23px;
+    text-align: center;
+  }
+
+  .company img {
+    margin: 0;
+    float: none;
+    padding-top: 34px;
+  }
+
+  .company_list {
+    float: none;
+    margin: 0;
+    margin-top: 30px;
+  }
+
+  .company_list li {
+    text-align: left;
+  }
+
+  .menu .search {
+    margin-right: 50px;
+  }
+
+  .menu_list {
+    margin-left: 25px;
+    font-size: 12px;
+  }
+
+  .red {
+    font-size: 23px;
+  }
+
+  .battery {
+    font-size: 28px;
+  }
+
+  .vrla {
+    font-size: 16px;
+  }
+
+  .text_quote {
+    margin-left: 50px;
+  }
+
+  .request {
+    font-size: 24px;
+  }
+
+  .ups {
+    font-size: 16px;
+  }
+
+  .btn_quote {
+    margin-right: 60px;
+  }
+
+  .onman {
+    top: 155px;
+  }
+
+  .products_text,
+  .battery_disp_text,
+  .services_text {
+    left: 0px;
+    top: 20px;
+  }
+
+  .battery_disp_img2 {
+    margin-top: 95px;
+  }
+
+  .sgr p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .sgr img {
+    width: 28%;
+  }
+
+  .safe img {
+    width: 20%;
+  }
+
+  .products_img3,
+  .services_img2 {
+    margin-top: 95px;
+  }
+
+  .psb_about {
+    font-size: 11px;
+    margin-top: 0px;
+    line-height: 20px;
+  }
+
+  .pics p {
+    font-size: 11px;
+    margin-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .ups_logo {
+    margin-left: 65px;
+  }
+
+  .friends li {
+    width: 24%;
+  }
+
+  .last_info li {
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+
+  .last_info p,
+  .the_end {
+    font-size: 9px;
+  }
+
+  .last_info h3 {
+    font-size: 13px;
+  }
+
+  .cr {
+    margin-left: 40px;
+  }
+
+  .wp {
+
+    margin-right: 50px;
+  }
+
+  .social {
+    font-size: 14px;
+  }
+
+  .info {
+    font-size: 12px;
+  }
+
+  .button1 {
+    font-size: 11px;
+    margin-left: 45px;
+  }
 }
 
-/**
- * Improve readability of focused elements when they are also in an
- * active/hover state.
- */
+@media  screen and (max-width: 800px) {
+  .contacts {
+    padding-bottom: 0px;
+    text-align: center;
+  }
 
-a:active,
-a:hover {
-  outline: 0;
+  .social {
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    float: none;
+  }
+
+  .company_list {
+    font-size: 19px;
+  }
+
+  .company img {
+    width: 55%;
+  }
+
+  .company .reg3 {
+    margin-left: 32px;
+  }
+
+  .info {
+    font-size: 17px;
+    margin-top: 15px;
+    margin-left: 0;
+  }
+
+  .button1 {
+    font-size: 21px;
+    margin-top: 9px;
+    margin-left: 0;
+    float: none;
+    width: 28%;
+  }
+
+  .button1 .fa-angle-down {
+    display: none;
+  }
+
+  .button1:hover {
+    color: #bd2631;
+  }
+
+  .hidden {
+    display: inline-block;
+  }
+
+  .options {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+  }
+
+  .man img {
+    width: 100%;
+  }
+
+  .menu {
+    background-color: transparent;
+    opacity: 1;
+  }
+
+  .menu .gambr {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 50px;
+  }
+
+  .fa-bars {
+    color: white;
+  }
+
+  .menu .search .fa-search {
+    color: white;
+  }
+
+  .menu_list {
+    display: none;
+  }
+
+  .menu .search {
+    font-size: 33px;
+    margin-top: 7px;
+  }
+
+  .onman {
+    top: 180px;
+  }
+
+  .psb div {
+    width: 100%;
+  }
+
+  .services_img11_block,
+  .services_img22_block {
+    display: block;
+  }
+
+  .services_img1_block,
+  .services_img2_block {
+    display: none;
+  }
+
+  .psb .products_img2_block,
+  .psb .products_img3_block ,
+  .psb .battery_disp_img3_block,
+  .psb .battery_disp_img2_block {
+    width: 50%;
+  }
+
+  .psb .services_img11_block {
+    width: 50%;
+    float: right;
+  }
+
+  .psb .services_img22_block {
+    width: 50%;
+    float: left;
+    text-align: center;
+  }
+
+  .psb .products_img3_block,
+  .psb .services_img22_block,
+  .psb .battery_disp_img2_block {
+    margin-top: 20%;
+  }
+
+  .psb_title {
+    font-size: 60px;
+  }
+
+  .psb_about {
+    font-size: 18px;
+  }
+
+  .products_img3,
+  .services_img2,
+  .battery_disp_img2 {
+    width: 40%;
+    margin: 0;
+  }
+
+  .sgr {
+    margin-left: 0;
+  }
+
+  .sgr li {
+    width: 100%;
+    list-style-type: none;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .sgr h1 {
+    font-size: 40px;
+  }
+
+  .sgr img {
+    width: 20%;
+  }
+
+  .safe img {
+    width: 15%;
+  }
+
+  .sgr p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .pics p {
+    font-size: 40px;
+  }
+
+  .pics li {
+    display: block;
+    width: auto;
+  }
+
+  .big_car {
+    width: 100%;
+  }
+
+  .ups_logo {
+    margin-top: 20px;
+    margin-bottom: 24px;
+    width: 35%;
+  }
+
+  .ups_than {
+    margin-left: 0;
+    margin-top: 31px;
+    font-size: 25px;
+  }
+
+  .friends li {
+    width: 100%;
+  }
+
+  .last_info ul {
+    text-align: center;
+  }
+
+  .last_info li {
+    display: block;
+    list-style: none;
+    text-align: center;
+    border: none;
+  }
+
+  .last_info h3 {
+    font-size: 30px;
+  }
+
+  .last_info p {
+    font-size: 19px;
+    line-height: 27px;
+  }
+
+  .the_end {
+    text-align: center;
+  }
+
+  .cr,
+  .wp {
+    display: block;
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 11px;
+    line-height:2px;
+  }
+
+  .quote {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .text_quote {
+    float: none;
+    margin-left: 0;
+  }
+
+  .btn_quote {
+    float: none;
+    margin-right: 0;
+
+  }
+
+  .btn_quote a {
+    font-size: 20px;
+  }
+
+  .search .fa-search:hover,
+  .fa-bars:hover {
+    color: white;
+  }
+
+  .onman .fa-angle-right,
+  .onman .fa-angle-left {
+    font-size: 50px;
+  }
+
 }
 
-/* Text-level semantics
-   ========================================================================== */
+@media  screen and (max-width: 660px) {
+  .button1 {
+    font-size: 17px;
+  }
+  .fa-location-arrow {
+    margin-left: 0px;
+    margin-right: 2px;
+  }
+  .logo-section{    padding: 34px 90px 29px 25%;}
+  .br_hidden1 {
+    display: block;
+  }
 
-/**
- * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
- */
+  .company_list {
+    font-size: 15px;
+  }
 
-abbr[title] {
-  border-bottom: 1px dotted;
+  .menu .search {
+    font-size: 22px;
+    margin-top: 3px;
+    margin-right: 30px;
+  }
+
+  .menu .gambr {
+    font-size: 32px;
+  }
+
+  .red {
+    font-size: 18px;
+  }
+
+  .battery {
+    font-size: 20px;
+  }
+
+  .vrla {
+    font-size: 11px;
+  }
+
+  .onman {
+    top: 132px;
+  }
+
+  .onman .fa-angle-right,
+  .onman .fa-angle-left {
+    font-size: 39px;
+  }
+
+  .provide {
+    margin-left: 27px;
+  }
+
+  .request {
+    font-size: 19px;
+  }
+
+  .ups {
+    font-size: 12px;
+  }
+
+  .btn_quote a {
+    font-size: 13px;
+  }
+
+  .quote {
+    padding-bottom: 24px;
+  }
+
+  .psb_title {
+    font-size: 33px;
+    line-height: 1.7;
+  }
+
+  .psb_about {
+    font-size: 12px;
+  }
+
+  .sgr p {
+    font-size: 18px;
+  }
+
+  .ups_than {
+    font-size: 12px;
+  }
+
+  .ups_logo {
+    margin-left: 30px;
+  }
+
+  .pics p {
+    font-size: 30px;
+  }
+
+  .last_info p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .last_info h3 {
+    font-size: 27px;
+    margin: 0;
+  }
 }
 
-/**
- * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
- */
+@media  screen and (max-width: 460px) {
+  .button1 {
+    font-size: 15px;
+    width: 28%;
+  }
 
-b,
-strong {
-  font-weight: bold;
+  .wash {
+    margin-right: 50px;
+    margin-left: -4px;
+  }
+
+  .br_hidden2 {
+    display: block;
+  }
+
+  .company_list {
+    font-size: 13px;
+  }
+
+  .company_list i {
+    margin-right: -8px;
+    margin-left: 8px;
+  }
+
+  .company_list .cert,
+  .company_list .enersys,
+  .company_list .emergency {
+    border-right: none;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .company .reg3 {
+    margin-left: 21px;
+  }
+
+  .menu .search {
+    font-size: 17px;
+  }
+
+  .menu .gambr {
+    font-size: 25px;
+  }
+
+  .onman {
+    top: 105px;
+  }
+
+  .red {
+    font-size: 15px;
+  }
+
+  .battery {
+    font-size: 14px;
+  }
+
+  .vrla {
+    font-size: 7px;
+  }
+
+  .provide {
+    margin-left: 9px;
+  }
+
+  .onman .fa-angle-right,
+  .onman .fa-angle-left {
+    font-size: 25px;
+  }
+
+  .fa-angle-left {
+    margin-left: 10px;
+  }
+
+  .text_request {
+    margin-top: 5px;
+  }
+
+  .request {
+    font-size: 17px;
+  }
+
+  .btn_quote {
+    margin-top: 15px;
+  }
+
+  .products_text,
+  .battery_disp_text,
+  .services_text {
+    left: 3px;
+  }
+
+  .psb_about {
+    font-size: 9px;
+  }
+
+  .psb_title {
+    font-size: 25px;
+  }
+
+  .sgr h1 {
+    font-size: 30px;
+  }
+
+  .sgr p {
+    font-size: 13px;
+  }
+
+  .sgr {
+    margin-top: 0;
+    padding-bottom: 20px;
+  }
+
+  .pics p {
+    font-size: 21px;
+  }
+
+  .last_info p {
+    font-size: 13px;
+  }
+
+  .last_info h3 {
+    font-size: 20px;
+  }
+
+  .cr, .wp {
+    font-size: 8px;
+    line-height: 0px;
+  }
 }
 
-/**
- * Address styling not present in Safari and Chrome.
- */
 
-dfn {
-  font-style: italic;
-}
-
-/**
- * Address variable `h1` font-size and margin within `section` and `article`
- * contexts in Firefox 4+, Safari, and Chrome.
- */
-
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
- * Address styling not present in IE 8/9.
- */
-
-mark {
-  background: #ff0;
-  color: #000;
-}
-
-/**
- * Address inconsistent and variable font size in all browsers.
- */
-
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` affecting `line-height` in all browsers.
- */
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-/* Embedded content
-   ========================================================================== */
-
-/**
- * Remove border when inside `a` element in IE 8/9/10.
- */
-
-img {
-  border: 0;
-}
-
-/**
- * Correct overflow not hidden in IE 9/10/11.
- */
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-/* Grouping content
-   ========================================================================== */
-
-/**
- * Address margin not present in IE 8/9 and Safari.
- */
-
-figure {
-  margin: 1em 40px;
-}
-
-/**
- * Address differences between Firefox and other browsers.
- */
-
-hr {
-  box-sizing: content-box;
-  height: 0;
-}
-
-/**
- * Contain overflow in all browsers.
- */
-
-pre {
-  overflow: auto;
-}
-
-/**
- * Address odd `em`-unit font size rendering in all browsers.
- */
-
-code,
-kbd,
-pre,
-samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
-}
-
-/* Forms
-   ========================================================================== */
-
-/**
- * Known limitation: by default, Chrome and Safari on OS X allow very limited
- * styling of `select`, unless a `border` property is set.
- */
-
-/**
- * 1. Correct color not being inherited.
- *    Known issue: affects color of disabled elements.
- * 2. Correct font properties not being inherited.
- * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
- */
-
-button,
-input,
-optgroup,
-select,
-textarea {
-  color: inherit; /* 1 */
-  font: inherit; /* 2 */
-  margin: 0; /* 3 */
-}
-
-/**
- * Address `overflow` set to `hidden` in IE 8/9/10/11.
- */
-
-button {
-  overflow: visible;
-}
-
-/**
- * Address inconsistent `text-transform` inheritance for `button` and `select`.
- * All other form control elements do not inherit `text-transform` values.
- * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
- * Correct `select` style inheritance in Firefox.
- */
-
-button,
-select {
-  text-transform: none;
-}
-
-/**
- * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
- *    and `video` controls.
- * 2. Correct inability to style clickable `input` types in iOS.
- * 3. Improve usability and consistency of cursor style between image-type
- *    `input` and others.
- */
-
-button,
-html input[type="button"], /* 1 */
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button; /* 2 */
-  cursor: pointer; /* 3 */
-}
-
-/**
- * Re-set default cursor for disabled elements.
- */
-
-button[disabled],
-html input[disabled] {
-  cursor: default;
-}
-
-/**
- * Remove inner padding and border in Firefox 4+.
- */
-
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-
-/**
- * Address Firefox 4+ setting `line-height` on `input` using `!important` in
- * the UA stylesheet.
- */
-
-input {
-  line-height: normal;
-}
-
-/**
- * It's recommended that you don't attempt to style these elements.
- * Firefox's implementation doesn't respect box-sizing, padding, or width.
- *
- * 1. Address box sizing set to `content-box` in IE 8/9/10.
- * 2. Remove excess padding in IE 8/9/10.
- */
-
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box; /* 1 */
-  padding: 0; /* 2 */
-}
-
-/**
- * Fix the cursor style for Chrome's increment/decrement buttons. For certain
- * `font-size` values of the `input`, it causes the cursor style of the
- * decrement button to change from `default` to `text`.
- */
-
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
- * 2. Address `box-sizing` set to `border-box` in Safari and Chrome.
- */
-
-input[type="search"] {
-  -webkit-appearance: textfield; /* 1 */
-  box-sizing: content-box; /* 2 */
-}
-
-/**
- * Remove inner padding and search cancel button in Safari and Chrome on OS X.
- * Safari (but not Chrome) clips the cancel button when the search input has
- * padding (and `textfield` appearance).
- */
-
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * Define consistent border, margin, and padding.
- */
-
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-
-/**
- * 1. Correct `color` not being inherited in IE 8/9/10/11.
- * 2. Remove padding so people aren't caught out if they zero out fieldsets.
- */
-
-legend {
-  border: 0; /* 1 */
-  padding: 0; /* 2 */
-}
-
-/**
- * Remove default vertical scrollbar in IE 8/9/10/11.
- */
-
-textarea {
-  overflow: auto;
-}
-
-/**
- * Don't inherit the `font-weight` (applied by a rule above).
- * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
- */
-
-optgroup {
-  font-weight: bold;
-}
-
-/* Tables
-   ========================================================================== */
-
-/**
- * Remove most spacing between table cells.
- */
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-td,
-th {
-  padding: 0;
-}
